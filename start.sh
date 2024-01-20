@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/LazyDeveloperr/LazyPrincess/tree/Angel_Neha--V8.5.git /LazyPrincess
+  git clone https://github.com/Noobcoder-xD/VR-MOVIES-DEMO /LazyPrincess
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /LazyPrincess
