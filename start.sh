@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Noobcoder-xD/VR-MOVIES-DEMO /VR-MOVIES-DEMO
+  git clone https://github.com/Noobcoder-xD/VR-MOVIES-DEMO.git /VR-MOVIES-DEMO
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /VR-MOVIES-DEMO 
